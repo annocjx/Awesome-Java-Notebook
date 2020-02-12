@@ -4,7 +4,7 @@ Java 完备的知识体系, JavaWeb、Spring全家桶、高并发、分布式、
 所有文章都整理在了语雀:https://www.yuque.com/jakeprim/java 可直接从语雀查看.
 
 | Ⅰ | Ⅱ | Ⅲ | Ⅳ | Ⅴ |
-| :--------: | :---------: | :---------: | :---------: | :---------: | 
+| :--------: | :---------: | :---------: | :---------: | :---------: |
 | 读书 [:arrow_forward:](#读书-arrow_forward) | 编程基础功 [:computer:](#编程基础功-computer) | 数据结构与算法 [:pencil2:](#算法-pencil2) | 设计模式 [:trophy:](#设计模式-trophy) | Java基础 [:coffee:](#Java基础-coffee) |
 
 | Ⅰ | Ⅱ | Ⅲ | Ⅳ | Ⅴ | Ⅵ |
@@ -86,17 +86,27 @@ Java 完备的知识体系, JavaWeb、Spring全家桶、高并发、分布式、
 
 ### JavaWeb 专题
 
-建议学习周期:一个月半
+[项目地址](https://github.com/JakePrim/Awesome-Java-Notebook/tree/master/JavaWeb)
 
-项目地址:
+建议学习周期:两周
 
-第一阶段:建议学习周期:两周
+| 文章标题 | 状态 | 原创/转载 | 代码 |
+| --- | --- | --- | --- |
+| [XML 入门](https://www.yuque.com/jakeprim/java/ocaeai) |[完成] | 原创 |  |
+| **[Servlet 入门](https://www.yuque.com/jakeprim/java/acho42)** |[完成] | 原创 | [代码](https://github.com/JakePrim/Awesome-Java-Notebook/tree/master/JavaWeb/job-servlet) |
+| **[JSP 入门](https://www.yuque.com/jakeprim/java/vntgg4)** |[完成] | 原创 | [代码](https://github.com/JakePrim/Awesome-Java-Notebook/tree/master/JavaWeb/job-jsp) |
+| **[Servlet与JSP进阶](https://www.yuque.com/jakeprim/java/dp9dyv)** |[完成] | 原创 | [代码](https://github.com/JakePrim/Awesome-Java-Notebook/tree/master/JavaWeb/employee) |
+| **[EL表达式与JSTL](https://www.yuque.com/jakeprim/java/idbuft)** |[完成] | 原创 | [EL代码](https://github.com/JakePrim/Awesome-Java-Notebook/tree/master/JavaWeb/elexample) [JSTL代码](https://github.com/JakePrim/Awesome-Java-Notebook/tree/master/JavaWeb/jstlexample) |
+| **[Servlet 与JSP实战](https://www.yuque.com/jakeprim/java/dx2rsh)** |[完成] | 原创 | [代码](https://github.com/JakePrim/Awesome-Java-Notebook/tree/master/JavaWeb/employee) |
+| **[JSON 的使用](https://www.yuque.com/jakeprim/java/kb8xp3)** |[完成] | 原创 | [代码](https://github.com/JakePrim/Awesome-Java-Notebook/tree/master/JavaWeb/jsonexample) |
+| **[正则表达式](https://www.yuque.com/jakeprim/java/glqiu7)** |[完成] | 原创 |  |
+| **[过滤器 - Filter](https://www.yuque.com/jakeprim/java/rmyr2g)** |[完成] | 原创 | [代码](https://github.com/JakePrim/Awesome-Java-Notebook/tree/master/JavaWeb/filter) |
+| **[监听器 - Listener](https://www.yuque.com/jakeprim/java/ku7a0l)** |[完成] | 原创 | [代码](https://github.com/JakePrim/Awesome-Java-Notebook/tree/master/JavaWeb/listener) |
+| **[文件上传](https://www.yuque.com/jakeprim/java/vz06g3)** |[完成] | 原创 | [代码](https://github.com/JakePrim/Awesome-Java-Notebook/tree/master/JavaWeb/upload) |
+| **[JavaWeb 项目实战](https://www.yuque.com/jakeprim/java/kzr1w5)** |[整理中] | 原创 | [代码](https://github.com/JakePrim/Awesome-Java-Notebook/tree/master/JavaWeb/bookCMS) |
+| **JavaWeb总结-脑图** |[整理中] | 原创 |  |
 
-| 文章标题 | 状态 | 原创/转载 |
-| --- | --- | --- |
-| JSP数据交互 |[敬请期待] | 原创 |
-| 分页与文件上传 |[敬请期待] | 原创 |
-| servlet |[敬请期待] | 原创 |
+
 
 ### SSM项目实战
 
