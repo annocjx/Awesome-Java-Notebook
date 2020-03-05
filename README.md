@@ -31,19 +31,7 @@ Java 完备的知识体系, JavaWeb、Spring全家桶、高并发、分布式、
 
 ### Linux操作系统
 
-| 文章标题 | 状态 | 原创/转载 |
-| --- | --- | --- |
-| Linux系统综述 | [敬请期待] | 原创 |
-| Linux系统初始化 | [敬请期待] | 原创 |
-| Linux系统进程管理 | [敬请期待] | 原创 |
-| Linux系统内存管理 | [敬请期待] | 原创 |
-| Linux系统文件系统 | [敬请期待] | 原创 |
-| Linux系统输入输出系统 | [敬请期待] | 原创 |
-| Linux系统进程间通信 | [敬请期待] | 原创 |
-| Linux系统网络系统 | [敬请期待] | 原创 |
-| Linux系统虚拟化 | [敬请期待] | 原创 |
-| Linux系统容器化 | [敬请期待] | 原创 |
-| Linux系统实战 | [敬请期待] | 原创 |
+
 
 ## 数据结构与算法 :pencil2:
 
@@ -67,6 +55,8 @@ Java 完备的知识体系, JavaWeb、Spring全家桶、高并发、分布式、
 | 文章标题 | 状态 | 原创/转载 |
 | --- | --- | --- |
 
+
+
 ## 设计模式 :trophy:
 
 | 文章标题 | 状态 | 原创/转载 |
@@ -74,8 +64,19 @@ Java 完备的知识体系, JavaWeb、Spring全家桶、高并发、分布式、
 
 ## 高性能数据库 :fire:
 
-| 文章标题 | 状态 | 原创/转载 |
-| --- | --- | --- |
+深入MySQL 数据库
+
+JDBC[示例代码](https://github.com/JakePrim/Awesome-Java-Notebook/tree/master/JDBC)
+
+| 文章标题                                                     | 状态     | 原创/转载 |
+| ------------------------------------------------------------ | -------- | --------- |
+| **[MySQL 数据类型](https://www.yuque.com/jakeprim/java/li66dt)** | [完成]   | 原创      |
+| **[MySQL 表的管理]()**                                       | [完成]   | 原创      |
+| **[MySQL 数据管理](https://www.yuque.com/jakeprim/java/sqehlt)** | [完成]   | 原创      |
+| **[MySQL 常用函数](https://www.yuque.com/jakeprim/java/ldm0hf)** | [完成]   | 原创      |
+| **[JDBC Java连接数据库](https://www.yuque.com/jakeprim/java/xiixmo)** | [完成]   | 原创      |
+| **[事务管理-同时修改两个表多次获取连接的问题](https://www.yuque.com/jakeprim/java/lk3iud)** | [完成]   | 原创      |
+| **[JavaWeb 连接数据库实战](https://www.yuque.com/jakeprim/java/lk3iud)** | [整理中] | 原创      |
 
 ## Java成魔之路 :coffee:
 
@@ -106,7 +107,16 @@ Java 完备的知识体系, JavaWeb、Spring全家桶、高并发、分布式、
 | **[JavaWeb 项目实战](https://www.yuque.com/jakeprim/java/kzr1w5)** |[整理中] | 原创 | [代码](https://github.com/JakePrim/Awesome-Java-Notebook/tree/master/JavaWeb/bookCMS) |
 | **JavaWeb总结-脑图** |[整理中] | 原创 |  |
 
+### MyBatis
 
+[示例代码](https://github.com/JakePrim/Awesome-Java-Notebook/tree/master/MyBatis)
+
+| 文章标题                                                     | 状态     | 原创/转载 |
+| ------------------------------------------------------------ | -------- | --------- |
+| **[Maven入门](https://www.yuque.com/jakeprim/java/no7s2e)**  | [完成]   | 原创      |
+| **[MyBatis 入门](https://www.yuque.com/jakeprim/java/xuog0h)** | [完成]   | 原创      |
+| **[MyBatis 高级特性](https://www.yuque.com/jakeprim/java/og1ahc)** | [完成]   | 原创      |
+| **MyBatis 实战**                                             | [进行中] |           |
 
 ### SSM项目实战
 

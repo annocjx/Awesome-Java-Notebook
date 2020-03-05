@@ -1,19 +1,16 @@
 # Awesome-Java-Notebook
-JavaWeb专题,所有文章都整理在了语雀:https://www.yuque.com/jakeprim/java 可直接从语雀查看.
+MySQL专题,所有文章都整理在了语雀:https://www.yuque.com/jakeprim/java 可直接从语雀查看.
 
-| 文章标题                                                     | 状态     | 原创/转载 | 代码                                                         |
-| ------------------------------------------------------------ | -------- | --------- | ------------------------------------------------------------ |
-| [XML 入门](https://www.yuque.com/jakeprim/java/ocaeai)       | [完成]   | 原创      |                                                              |
-| **[Servlet 入门](https://www.yuque.com/jakeprim/java/acho42)** | [完成]   | 原创      | [代码](https://github.com/JakePrim/Awesome-Java-Notebook/tree/master/JavaWeb/job-servlet) |
-| **[JSP 入门](https://www.yuque.com/jakeprim/java/vntgg4)**   | [完成]   | 原创      | [代码](https://github.com/JakePrim/Awesome-Java-Notebook/tree/master/JavaWeb/job-jsp) |
-| **[Servlet与JSP进阶](https://www.yuque.com/jakeprim/java/dp9dyv)** | [完成]   | 原创      | [代码](https://github.com/JakePrim/Awesome-Java-Notebook/tree/master/JavaWeb/employee) |
-| **[EL表达式与JSTL](https://www.yuque.com/jakeprim/java/idbuft)** | [完成]   | 原创      | [EL代码](https://github.com/JakePrim/Awesome-Java-Notebook/tree/master/JavaWeb/elexample) [JSTL代码](https://github.com/JakePrim/Awesome-Java-Notebook/tree/master/JavaWeb/jstlexample) |
-| **[Servlet 与JSP实战](https://www.yuque.com/jakeprim/java/dx2rsh)** | [完成]   | 原创      | [代码](https://github.com/JakePrim/Awesome-Java-Notebook/tree/master/JavaWeb/employee) |
-| **[JSON 的使用](https://www.yuque.com/jakeprim/java/kb8xp3)** | [完成]   | 原创      | [代码](https://github.com/JakePrim/Awesome-Java-Notebook/tree/master/JavaWeb/jsonexample) |
-| **[正则表达式](https://www.yuque.com/jakeprim/java/glqiu7)** | [完成]   | 原创      |                                                              |
-| **[过滤器 - Filter](https://www.yuque.com/jakeprim/java/rmyr2g)** | [完成]   | 原创      | [代码](https://github.com/JakePrim/Awesome-Java-Notebook/tree/master/JavaWeb/filter) |
-| **[监听器 - Listener](https://www.yuque.com/jakeprim/java/ku7a0l)** | [完成]   | 原创      | [代码](https://github.com/JakePrim/Awesome-Java-Notebook/tree/master/JavaWeb/listener) |
-| **[文件上传](https://www.yuque.com/jakeprim/java/vz06g3)**   | [完成]   | 原创      | [代码](https://github.com/JakePrim/Awesome-Java-Notebook/tree/master/JavaWeb/upload) |
-| **[JavaWeb 项目实战](https://www.yuque.com/jakeprim/java/kzr1w5)** | [整理中] | 原创      | [代码](https://github.com/JakePrim/Awesome-Java-Notebook/tree/master/JavaWeb/bookCMS) |
+深入MySQL 数据库
 
----
+JDBC[示例代码](https://github.com/JakePrim/Awesome-Java-Notebook/tree/master/JDBC)
+
+| 文章标题                                                     | 状态     | 原创/转载 |
+| ------------------------------------------------------------ | -------- | --------- |
+| **[MySQL 数据类型](https://www.yuque.com/jakeprim/java/li66dt)** | [完成]   | 原创      |
+| **[MySQL 表的管理]()**                                       | [完成]   | 原创      |
+| **[MySQL 数据管理](https://www.yuque.com/jakeprim/java/sqehlt)** | [完成]   | 原创      |
+| **[MySQL 常用函数](https://www.yuque.com/jakeprim/java/ldm0hf)** | [完成]   | 原创      |
+| **[JDBC Java连接数据库](https://www.yuque.com/jakeprim/java/xiixmo)** | [完成]   | 原创      |
+| **[事务管理-同时修改两个表多次获取连接的问题](https://www.yuque.com/jakeprim/java/lk3iud)** | [完成]   | 原创      |
+| **[JavaWeb 连接数据库实战](https://www.yuque.com/jakeprim/java/lk3iud)** | [整理中] | 原创      |
