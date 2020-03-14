@@ -21,7 +21,7 @@
             <scope>test</scope>
         </dependency>
 
-        <!-- 引入Spring相关的依赖 -->
+        <!-- 引入Spring基本相关的依赖 -->
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-core</artifactId>

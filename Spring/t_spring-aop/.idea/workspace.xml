@@ -2,32 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8f02862e-5d6c-4c56-b54b-a266cb127384" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/prim/ProductDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/prim/aop/AopImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/prim/aop/MyCglibProxy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/prim/spring/aop/MyBeforeAdvice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/prim/spring/aop/StudentDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/prim/spring/aop/StudentDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/AopTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/SpringAopTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/applicationContext.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/prim/BaseDaoImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/prim/ProductDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/prim/UserDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/prim/UserDaoImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/prim/aop/AopImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/prim/aop/MyCglibProxy.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/prim/spring/aop/MyBeforeAdvice.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/prim/spring/aop/StudentDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/prim/spring/aop/StudentDaoImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/AopTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/SpringAopTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/prim/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/prim/UserDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/prim/UserDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/prim/UserDaoImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -154,7 +130,7 @@
       <updated>1584090909947</updated>
       <workItem from="1584091305551" duration="144000" />
       <workItem from="1584091477515" duration="1086000" />
-      <workItem from="1584094407830" duration="12720000" />
+      <workItem from="1584094407830" duration="13986000" />
     </task>
     <servers />
   </component>
@@ -218,6 +194,10 @@
       <screen x="-1920" y="-180" width="1920" height="1080" />
     </state>
     <state x="-1259" y="207" key="com.intellij.ide.util.TipDialog/0.0.1440.900/-1920.-180.1920.1080@-1920.-180.1920.1080" timestamp="1584094459919" />
+    <state x="111" y="105" key="new project wizard" timestamp="1584176284385">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="111" y="105" key="new project wizard/0.0.1440.900@0.0.1440.900" timestamp="1584176284385" />
     <state x="469" y="201" width="670" height="564" key="search.everywhere.popup" timestamp="1584173550486">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
