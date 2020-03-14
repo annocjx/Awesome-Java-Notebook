@@ -46,6 +46,26 @@
             <version>4.2.4.RELEASE</version>
         </dependency>
 
+        <!-- 引入AOP 联盟依赖 -->
+        <dependency>
+            <groupId>aopalliance</groupId>
+            <artifactId>aopalliance</artifactId>
+            <version>1.0</version>
+        </dependency>
+
+        <!-- 引入Spring AOP 依赖 -->
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-aop</artifactId>
+            <version>4.2.4.RELEASE</version>
+        </dependency>
+
+        <!-- 引入Spring 单元测试依赖 -->
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-test</artifactId>
+            <version>4.2.4.RELEASE</version>
+        </dependency>
         <!-- 引入日志相关依赖 -->
         <dependency>
             <groupId>commons-logging</groupId>
