@@ -35,6 +35,7 @@ public class OrderServiceImpl implements OrderService {
         //设置业务规则
         order.setCreateTime(new Date());
         order.setStatus("待付款");
+        //开启一个事务
         TransactionStatus transactionStatus = transactionManager.getTransaction(transactionDefinition);
         try {
             //插入订单表
@@ -43,7 +44,7 @@ public class OrderServiceImpl implements OrderService {
             //修改库存数
             product.setStock(product.getStock() - order.getNumber());
             productDao.update(product);
-
+            //提交事务
             transactionManager.commit(transactionStatus);
         } catch (Exception e) {
             transactionManager.rollback(transactionStatus);
