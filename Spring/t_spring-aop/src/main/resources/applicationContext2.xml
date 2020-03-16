@@ -27,5 +27,6 @@
         <property name="proxyTargetClass" value="true"/>
         <!-- 切面连接的规则配置 -->
         <property name="interceptorNames" value="myAdvice"/>
+<!--        <property name="optimize" value="true"/>-->
     </bean>
 </beans>

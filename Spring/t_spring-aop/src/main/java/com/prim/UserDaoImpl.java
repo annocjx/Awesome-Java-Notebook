@@ -14,14 +14,13 @@ package com.prim;
 public class UserDaoImpl extends BaseDaoImpl implements UserDao {
     @Override
     public void save() {
-        //调用父类的方法
-//        checkPrivilege();
         //保存用户
         System.out.println("UserDaoImpl.save");
     }
 
     @Override
     public void update() {
+        checkPrivilege();
         //更新信息
         System.out.println("UserDaoImpl.update");
     }

@@ -17,6 +17,6 @@ public class MyAroundAdvice implements MethodInterceptor {
         Object proceed = methodInvocation.proceed();
 
         System.out.println("MyAroundAdvice.invoke 环绕后增强");
-        return null;
+        return proceed;
     }
 }

@@ -6,6 +6,7 @@ import java.lang.reflect.Method;
 
 /**
  * @author prim
+ * 切面类 增强类
  */
 public class MyBeforeAdvice implements MethodBeforeAdvice {
     @Override

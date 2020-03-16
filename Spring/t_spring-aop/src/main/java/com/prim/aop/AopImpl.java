@@ -27,7 +27,6 @@ public class AopImpl implements InvocationHandler {
 
     @Override
     public Object invoke(Object proxy, Method method, Object[] args) throws Throwable {
-//        System.out.println("AopImpl.invoke" + method.getName());
         if ("save".equals(method.getName())) {
             System.out.println("权限校验.....");
             return method.invoke(targetObj, args);//做完权限校验后在调用目标对象的方法

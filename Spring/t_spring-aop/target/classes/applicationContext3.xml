@@ -12,20 +12,10 @@
     <bean id="aroundAdvice" class="com.prim.autoproxy.MyAroundAdvice"/>
 
     <!-- 配置自动产生代理 基于bean名称的自动代理方式 -->
-    <!--    <bean class="org.springframework.aop.framework.autoproxy.BeanNameAutoProxyCreator">-->
-    <!--        &lt;!&ndash; 连接的beanName &ndash;&gt;-->
-    <!--        <property name="beanNames" value="*Dao"/>-->
-    <!--        &lt;!&ndash; 连接的bean都进行前置增强 &ndash;&gt;-->
-    <!--        <property name="interceptorNames" value="beforeAdvice"/>-->
-    <!--    </bean>-->
-
-    <!-- 配置一个切面 -->
-    <bean id="myAutoAdvisor" class="org.springframework.aop.support.RegexpMethodPointcutAdvisor">
-        <property name="pattern" value="com\.prim\.autoproxy\.CustomerDao\.save"/>
-        <!-- 配置通知方式 -->
-        <property name="advice" value="aroundAdvice"/>
+    <bean class="org.springframework.aop.framework.autoproxy.BeanNameAutoProxyCreator">
+        <!-- 连接的beanName -->
+        <property name="beanNames" value="*Dao"/>
+        <!-- 连接的bean都进行前置增强 -->
+        <property name="interceptorNames" value="beforeAdvice"/>
     </bean>
-
-    <!-- 基于切面信息产生代理 根据切面信息 自动产生代理 -->
-    <bean class="org.springframework.aop.framework.autoproxy.DefaultAdvisorAutoProxyCreator"></bean>
 </beans>

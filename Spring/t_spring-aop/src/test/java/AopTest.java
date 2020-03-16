@@ -8,12 +8,16 @@ import org.junit.Test;
 public class AopTest {
     @Test
     public void testCommon() {
+        //目标对象的实例
         UserDao userDao = new UserDaoImpl();
-        AopImpl aop = new AopImpl(new ProductDao());
-        Object proxy1 = aop.createProxy();
+        //通过代理对象调用方法
+        AopImpl aop = new AopImpl(userDao);
+        UserDao proxy = (UserDao) aop.createProxy();
+        proxy.save();
+        proxy.update();
 //        System.out.println("AopTest.testCommon" + proxy1.getClass());
-        ProductDao proxy = (ProductDao) aop.createProxy();
-        proxy.save();//在save之前进行权限校验
+//        ProductDao proxy = (ProductDao) aop.createProxy();
+//        proxy.save();//在save之前进行权限校验
     }
 
     @Test
@@ -24,7 +28,7 @@ public class AopTest {
     }
 
     @Test
-    public void testSpringAop1(){
+    public void testSpringAop1() {
 
     }
 }
