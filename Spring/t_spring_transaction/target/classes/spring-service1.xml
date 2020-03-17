@@ -15,6 +15,8 @@
 
     <!-- 引入配置文件 -->
     <import resource="applicationContext.xml"/>
+    <!-- 开启Spring IOC 注解自动扫描 -->
+    <context:component-scan base-package="com.prim.service.impl1"/>
 
     <!-- 配置事务管理器 -->
     <bean id="transactionManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
@@ -22,31 +24,10 @@
         <property name="dataSource" ref="dataSource"/>
     </bean>
 
-    <bean id="orderServiceTarget" class="com.prim.service.impl.OrderServiceImpl"/>
-
-    <!-- 事务拦截配置-->
-    <bean id="transactionInterceptor" class="org.springframework.transaction.interceptor.TransactionInterceptor">
-        <!-- 配置事务管理器 -->
-        <property name="transactionManager" ref="transactionManager"/>
-        <property name="transactionAttributes">
-            <props>
-                <!-- 目标对象的方法名 查询数据都设置为只读事务-->
-                <prop key="get*">PROPAGATION_REQUIRED,readOnly</prop>
-                <prop key="find*">PROPAGATION_REQUIRED,readOnly</prop>
-                <prop key="search*">PROPAGATION_REQUIRED,readOnly</prop>
-                <!-- 其他都是以事务的方式 -->
-                <prop key="*">PROPAGATION_REQUIRED</prop>
-            </props>
-        </property>
+    <!-- 配置事务定义 -->
+    <bean id="transactionDefinition" class="org.springframework.transaction.support.DefaultTransactionDefinition">
+        <!-- 设置事务传播行为 -->
+        <property name="propagationBehaviorName" value="PROPAGATION_REQUIRED"/>
+        <!-- 也可以配置隔离级别等行为 -->
     </bean>
-
-    <bean id="orderService" class="org.springframework.aop.framework.ProxyFactoryBean">
-        <property name="target" ref="orderServiceTarget"/>
-        <property name="interceptorNames">
-            <list>
-                <idref bean="transactionInterceptor"/>
-            </list>
-        </property>
-    </bean>
-
 </beans>

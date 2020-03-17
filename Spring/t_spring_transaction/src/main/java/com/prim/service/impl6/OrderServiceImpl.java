@@ -24,7 +24,15 @@ public class OrderServiceImpl implements OrderService {
     @Autowired
     private ProductDao productDao;
 
-    @Transactional(propagation = Propagation.REQUIRED)
+    /**
+     * rollbackFor 异常回滚
+     * rollbackFor用于指定能够触发事务回滚的异常类型，可以指定多个，用逗号分隔。
+     * rollbackFor默认值为UncheckedException，包括了RuntimeException和Error.
+     * 当我们直接使用@Transactional不指定rollbackFor时，Exception及其子类都不会触发回滚
+     *
+     * @param order
+     */
+    @Transactional(propagation = Propagation.REQUIRED, rollbackFor = Exception.class)
     public void addOrder(final Order order) {
         //设置业务规则
         order.setCreateTime(new Date());

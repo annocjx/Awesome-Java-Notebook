@@ -18,7 +18,6 @@ import java.util.Date;
  */
 @Service("orderService")
 public class OrderServiceImpl implements OrderService {
-
     @Autowired
     private OrderDao orderDao;
 
@@ -50,6 +49,5 @@ public class OrderServiceImpl implements OrderService {
             transactionManager.rollback(transactionStatus);
             e.printStackTrace();
         }
-
     }
 }

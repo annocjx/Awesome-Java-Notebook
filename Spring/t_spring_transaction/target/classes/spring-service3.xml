@@ -22,9 +22,9 @@
         <property name="dataSource" ref="dataSource"/>
     </bean>
 
+    <!-- 事务拦截配置 太麻烦了 -->
     <bean id="orderServiceTarget" class="com.prim.service.impl.OrderServiceImpl"/>
 
-    <!-- 事务拦截配置-->
     <bean id="transactionInterceptor" class="org.springframework.transaction.interceptor.TransactionInterceptor">
         <!-- 配置事务管理器 -->
         <property name="transactionManager" ref="transactionManager"/>
@@ -45,6 +45,7 @@
         <property name="interceptorNames">
             <list>
                 <idref bean="transactionInterceptor"/>
+<!--                <idref bean="transactionInterceptor"/>-->
             </list>
         </property>
     </bean>

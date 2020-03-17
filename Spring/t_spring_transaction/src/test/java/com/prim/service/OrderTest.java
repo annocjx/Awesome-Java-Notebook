@@ -8,7 +8,7 @@ import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
 @RunWith(SpringJUnit4ClassRunner.class)
-@ContextConfiguration("classpath:spring-service1.xml")
+@ContextConfiguration("classpath:spring-service3.xml")
 public class OrderTest {
 
     @Autowired
@@ -16,7 +16,7 @@ public class OrderTest {
 
     @Test
     public void testAddOrder() {
-        Order order = new Order("10003", "10002", 2, 1700.0, "刘某", "110", "北京");
+        Order order = new Order("10004", "10002", 2, 1700.0, "刘某", "110", "北京");
         orderService.addOrder(order);
     }
 }
