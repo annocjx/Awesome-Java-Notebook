@@ -12,13 +12,6 @@
       <change beforePath="$PROJECT_DIR$/../t_spring_jdbc_template/src/test/java/JdbcTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../t_spring_jdbc_template/src/test/java/JdbcTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../t_spring_jdbc_template/target/classes/META-INF/t_spring_jdbc_template.kotlin_module" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../t_spring_jdbc_template/target/test-classes/JdbcTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../t_spring_jdbc_template/target/test-classes/JdbcTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/prim/dao/impl/OrderDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/prim/dao/impl/OrderDaoImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/prim/dao/impl/ProductDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/prim/dao/impl/ProductDaoImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/prim/service/impl1/OrderServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/prim/service/impl1/OrderServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/prim/service/impl6/OrderServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/prim/service/impl6/OrderServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/spring-service3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/spring-service3.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/prim/service/OrderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/prim/service/OrderTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -196,7 +189,7 @@
       <updated>1584264976712</updated>
       <workItem from="1584264979978" duration="288000" />
       <workItem from="1584265442033" duration="12384000" />
-      <workItem from="1584431864957" duration="3950000" />
+      <workItem from="1584431864957" duration="3989000" />
     </task>
     <servers />
   </component>
@@ -213,25 +206,25 @@
     </state>
     <state x="-1209" y="-11" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900/-1920.-180.1920.1080@-1920.-180.1920.1080" timestamp="1584434166913" />
     <state x="533" y="141" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1584281208933" />
-    <state width="1878" height="304" key="GridCell.Tab.0.bottom" timestamp="1584436575909">
+    <state width="1878" height="304" key="GridCell.Tab.0.bottom" timestamp="1584441871144">
       <screen x="-1920" y="-180" width="1920" height="1080" />
     </state>
-    <state width="1878" height="304" key="GridCell.Tab.0.bottom/0.0.1440.900/-1920.-180.1920.1080@-1920.-180.1920.1080" timestamp="1584436575909" />
+    <state width="1878" height="304" key="GridCell.Tab.0.bottom/0.0.1440.900/-1920.-180.1920.1080@-1920.-180.1920.1080" timestamp="1584441871144" />
     <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1584278545043" />
-    <state width="1878" height="304" key="GridCell.Tab.0.center" timestamp="1584436575907">
+    <state width="1878" height="304" key="GridCell.Tab.0.center" timestamp="1584441871141">
       <screen x="-1920" y="-180" width="1920" height="1080" />
     </state>
-    <state width="1878" height="304" key="GridCell.Tab.0.center/0.0.1440.900/-1920.-180.1920.1080@-1920.-180.1920.1080" timestamp="1584436575907" />
+    <state width="1878" height="304" key="GridCell.Tab.0.center/0.0.1440.900/-1920.-180.1920.1080@-1920.-180.1920.1080" timestamp="1584441871141" />
     <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1584278545042" />
-    <state width="1878" height="304" key="GridCell.Tab.0.left" timestamp="1584436575907">
+    <state width="1878" height="304" key="GridCell.Tab.0.left" timestamp="1584441871139">
       <screen x="-1920" y="-180" width="1920" height="1080" />
     </state>
-    <state width="1878" height="304" key="GridCell.Tab.0.left/0.0.1440.900/-1920.-180.1920.1080@-1920.-180.1920.1080" timestamp="1584436575907" />
+    <state width="1878" height="304" key="GridCell.Tab.0.left/0.0.1440.900/-1920.-180.1920.1080@-1920.-180.1920.1080" timestamp="1584441871139" />
     <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1584278545041" />
-    <state width="1878" height="304" key="GridCell.Tab.0.right" timestamp="1584436575908">
+    <state width="1878" height="304" key="GridCell.Tab.0.right" timestamp="1584441871143">
       <screen x="-1920" y="-180" width="1920" height="1080" />
     </state>
-    <state width="1878" height="304" key="GridCell.Tab.0.right/0.0.1440.900/-1920.-180.1920.1080@-1920.-180.1920.1080" timestamp="1584436575908" />
+    <state width="1878" height="304" key="GridCell.Tab.0.right/0.0.1440.900/-1920.-180.1920.1080@-1920.-180.1920.1080" timestamp="1584441871143" />
     <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1584278545042" />
     <state x="449" y="141" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1584265140353">
       <screen x="0" y="0" width="1440" height="900" />

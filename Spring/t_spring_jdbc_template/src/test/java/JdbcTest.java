@@ -40,22 +40,22 @@ public class JdbcTest {
     public void testExecute() {
         //简化了jdbc的操作
         //execute
-//        jdbcTemplate.execute("create table user1(id int,name varchar(20))");
+        jdbcTemplate.execute("create table user1(id int,name varchar(20))");
         //实现对数据对增删改操作
         //update 对数据增删改操作
         //插入一条数据
-//        int update = jdbcTemplate.update("insert into student(name, sex) values (?,?)", new Object[]{"张三", "男"});
-//        System.out.println("JdbcTest.testExecute" + update);
+        int update = jdbcTemplate.update("insert into student(name, sex) values (?,?)", new Object[]{"张三", "男"});
+        System.out.println("JdbcTest.testExecute" + update);
 
         //更新一条数据
-//        jdbcTemplate.update("update student set sex = ? where id=?", "女", 1);
+        jdbcTemplate.update("update student set sex = ? where id=?", "女", 1);
 
         //batchUpdate 批量增删改操作
-//        jdbcTemplate.batchUpdate(new String[]{
-////                "insert into student(name, sex) values ('关羽','女')",
-////                "insert into student(name, sex) values ('刘备','男')",
-////                "update  student set sex='女' where id=3",
-////        });
+        jdbcTemplate.batchUpdate(new String[]{
+                "insert into student(name, sex) values ('关羽','女')",
+                "insert into student(name, sex) values ('刘备','男')",
+                "update  student set sex='女' where id=3",
+        });
         //另一种方式
         List<Object[]> list = new ArrayList<>();
         list.add(new Object[]{1, 1001});
